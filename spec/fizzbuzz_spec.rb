@@ -25,4 +25,12 @@ describe 'fizzbuzz' do
   it 'returns 2 when passed a 2' do
     expect(fizzbuzz(2)).to eq 2
   end
+
+  it 'returns 19 when passed 19' do
+    expect(fizzbuzz(19)).to eq 19
+  end
+
+  it 'returns "fizz" when passed -12' do
+    expect(fizzbuzz(-12)).to eq 'fizz'
+  end 
 end
